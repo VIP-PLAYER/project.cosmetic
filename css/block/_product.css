@@ -1,0 +1,78 @@
+.products .container {
+  display: flex;
+  flex-direction: column;
+}
+
+.products-box {
+  display: flex;
+}
+
+.products-content {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.products-btn {
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+}
+.products-text h2 {
+  font-size: 56px;
+  font-weight: 500;
+  line-height: 70px;
+  color: #000000;
+}
+
+.card {
+  width: 600px;
+  border: 1px solid black;
+}
+
+.card-content {
+  padding: 20px 32px 32px 32px;
+}
+
+.card-actions {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 47px;
+}
+.card-content h2 {
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 60px;
+}
+.card-content p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  margin-top: 16px;
+}
+
+.card-action {
+  display: flex;
+  column-gap: 24px;
+}
+.card-action button {
+  padding: 16px 32px;
+  border: 1px solid #685a5275;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #402F2C;
+  cursor: pointer;
+}
+.card-actions button:first-child {
+  background-color: #402F2C;
+  color: #ffffff;
+}
+.card-actions span {
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 32px;
+  color: #222222;
+}
