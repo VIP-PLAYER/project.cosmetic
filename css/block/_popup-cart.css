@@ -1,0 +1,8 @@
+.popup-cart {
+    position: absolute;
+    right: 0;
+    width: 400px;
+    height: 500px;
+    background-color: white;
+    z-index: 9999;
+}
