@@ -51,3 +51,4 @@ const productsMap = products.map((el) => {
 
 productsBox.innerHTML = productsMap.join("")
 console.log(productsMap)
+2
